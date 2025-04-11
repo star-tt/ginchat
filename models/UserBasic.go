@@ -5,7 +5,7 @@ import "github.com/jinzhu/gorm"
 type UserBasic struct {
 	gorm.Model
 	Name          string
-	Password      string
+	PassWord      string
 	Phone         string
 	Email         string
 	Identity      string
